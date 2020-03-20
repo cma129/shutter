@@ -433,6 +433,10 @@ button[type=submit]:focus {
     padding: 20px 5px;
 }
 
+.portfolio {
+    text-transform: initial;
+}
+
 /* Media queries */
 
 /* Desktop */
