@@ -536,7 +536,7 @@ button[type=submit]:focus {
 	}
     
     .icons {
-        margin: 20% 60px;
+        margin: 20% 15px;
     }
 
     .icons a {
@@ -676,10 +676,6 @@ button[type=submit]:focus {
 
 /* Small mobile */
 @media (max-width: 430px) {
-    .icons {
-        margin-right: 20px;
-    }
-
     h1 {
         font-size: 100px;
         line-height: 130px;
