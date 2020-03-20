@@ -84,11 +84,7 @@ html {
 
 .icons {
     float: right;
-    margin: 210px 60px;
-}
-
-.icons li:last-of-type {
-    margin-bottom: 100px;
+    margin: 11% 60px;
 }
 
 .icons a {
@@ -540,7 +536,11 @@ button[type=submit]:focus {
 	}
     
     .icons {
-        margin: 150px 60px;
+        margin: 20% 60px;
+    }
+
+    .icons a {
+        font-size: 25px;
     }
 
     .title {
@@ -693,6 +693,10 @@ button[type=submit]:focus {
 @media (max-width: 380px) {
     .behind h2 {
         line-height: 1em;
+    }
+
+    h1 {
+        font-size: 90px;
     }
 }
 
