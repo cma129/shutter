@@ -705,6 +705,15 @@ button[type=submit]:focus {
     .title {
         margin-top: 0;
     }
+
+    .menu ul a {
+		font-size: 20px;
+		text-align: center;
+		width: 100%;
+        padding: 17px;
+        margin: 0 auto;
+        line-height: 1.5em;
+	}
 }
 
 /* Print */
