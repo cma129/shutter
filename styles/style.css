@@ -696,6 +696,17 @@ button[type=submit]:focus {
     }
 }
 
+/* Mobile landscape */
+@media(max-height: 420px) {
+    .icons {
+        display: none;
+    }
+
+    .title {
+        margin-top: 0;
+    }
+}
+
 /* Print */
 @media print {
     .top-header {
