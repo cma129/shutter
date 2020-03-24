@@ -52,6 +52,21 @@ html {
     padding: 17px 0;
 }
 
+.top-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    -webkit-transition: background-color linear .7s;
+    -moz-transition: background-color linear .7s;
+    -o-transition: background-color linear .7s;
+    transition: background-color linear .7s;
+}
+
+.active {
+    background-color: #252525d8;
+}
+
 .menu {
     text-transform: uppercase;
     float: right;
@@ -518,7 +533,7 @@ button[type=submit]:focus {
         height: 100vh;
 		background: rgba(37, 37, 37, 0.98);
 		color: #fff;
-        z-index: 10;
+        z-index: 100;
         padding-top: 70px;
 	}
 
@@ -676,6 +691,19 @@ button[type=submit]:focus {
 
 /* Small mobile */
 @media (max-width: 430px) {
+    .top-menu {
+        position: initial;
+    }
+
+    .hamburger {
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .scrolled {
+        color: #E7A8E6;
+    }
+
     h1 {
         font-size: 100px;
         line-height: 130px;

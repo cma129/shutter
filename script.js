@@ -1,3 +1,19 @@
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 500) {
+        $(".top-menu").addClass("active");
+    } else {
+        $(".top-menu").removeClass("active");
+    }
+});
+
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 500) {
+        $(".hamburger").addClass("scrolled");
+    } else {
+        $(".hamburger").removeClass("scrolled");
+    }
+});
+
 const sound = document.querySelector(".sound");
 function play() {
     sound.play();
