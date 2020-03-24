@@ -7,7 +7,7 @@ $(window).on("scroll", function() {
 });
 
 $(window).on("scroll", function() {
-    if($(window).scrollTop() > 500) {
+    if($(window).scrollTop() > 10) {
         $(".hamburger").addClass("scrolled");
     } else {
         $(".hamburger").removeClass("scrolled");
