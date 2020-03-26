@@ -45,11 +45,15 @@ setTimeout(function (){
 $(function() {
     $('.hamburger').click(function() {
         $('.menu').fadeIn('slow');
-    });
+    })
+
+    $('.top-menu li').click(function() {
+        $('.menu').fadeOut('slow');
+    })
 
     $('.exit-responsive').click(function() {
-        $('.menu').fadeOut('slow')
-    });
+        $('.menu').fadeOut('slow');
+    })
 });
 
 AOS.init();

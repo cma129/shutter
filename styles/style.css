@@ -425,7 +425,9 @@ a:focus-within,
 .hamburger:hover,
 .hamburger:focus-within,
 .exit-responsive:hover,
-.exit-responsive:focus-within {
+.exit-responsive:focus-within,
+.top:hover,
+.top:focus-within {
     color: #E7A8E6;
 }
 
