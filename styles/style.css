@@ -723,7 +723,7 @@ button[type=submit]:focus-within {
     }
 
     h1 {
-        font-size: 90px;
+        font-size: 85px;
     }
 }
 
@@ -734,7 +734,7 @@ button[type=submit]:focus-within {
     }
 
     .title {
-        margin-top: 0;
+        margin-top: -3%;
     }
 
     .menu ul a {
@@ -743,7 +743,7 @@ button[type=submit]:focus-within {
 		width: 100%;
         padding: 17px;
         margin: 0 auto;
-        line-height: 1.5em;
+        line-height: 1em;
 	}
 }
 
