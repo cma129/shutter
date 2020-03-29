@@ -25,6 +25,10 @@ html {
     font-size: 18px;
 }
 
+*:focus-within {
+    outline: none;
+}
+
 /* Header styles */
 .top-header {
     background: url("assets/asset-1.jpg");
@@ -90,7 +94,7 @@ html {
 .exit-responsive {
 	position: relative;
 	top: 30px;
-    left: 30px;
+    left: 8px;
 }
 
 .show.menu {
@@ -382,10 +386,6 @@ input[type="email"] {
     font-family: 'Lato', sans-serif;
 }
 
-input[type="email"]::placeholder {
-    opacity: 1;
-}
-
 button[type=submit] {
     background-color: #E7A8E6;
     color: #000;
@@ -442,9 +442,9 @@ button[type=submit]:focus-within {
 .skip-link:focus-within {
     color: #252525;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: bold;
-    padding: 20px 5px;
+    padding: 10px;
 }
 
 .portfolio {
@@ -513,6 +513,11 @@ button[type=submit]:focus-within {
 
 /* Tablet to large mobile */
 @media (max-width: 768px) {
+    .logo {
+        position: absolute;
+        left: 18px;
+    }
+
     .hamburger,
 	.exit-responsive {
 		display: block;
