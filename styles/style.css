@@ -792,6 +792,9 @@ button[type=submit]:focus-within {
     }
 }
 
+/* Browser compatibility */
+
+/* iOS */
 @supports (-webkit-touch-callout: none) {
     .top-header {
         background: none;
@@ -817,5 +820,14 @@ button[type=submit]:focus-within {
 
     input[type="email"] {
         border-radius: 0;
+    }
+}
+
+/* Edge */
+
+
+@supports (-ms-ime-align:auto) {
+    .top-menu {
+        position: initial;
     }
 }
