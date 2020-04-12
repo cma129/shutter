@@ -9,10 +9,12 @@ $(window).on("scroll", function() {
 
 // nav bar colour change on scroll
 $(window).on("scroll", function() {
-    if($(window).scrollTop() > 10) {
+    if($(window).scrollTop() > 30) {
         $(".hamburger").addClass("scrolled");
+        $(".logo").addClass("scrolled");
     } else {
         $(".hamburger").removeClass("scrolled");
+        $(".logo").removeClass("scrolled");
     }
 });
 
@@ -47,18 +49,18 @@ setTimeout(function (){
 // hamburger menu show/remove
 $(function() {
     $('.hamburger').click(function() {
-        $('.menu').fadeIn('slow');
+        $('.menu').fadeIn('fast');
     })
 
     const mq = window.matchMedia("(max-width: 768px)");
     if (mq.matches) {
         $('.top-menu li').click(function () {
-            $('.menu').fadeOut('slow');
+            $('.menu').fadeOut('fast');
         })
     }
 
     $('.exit-responsive').click(function() {
-        $('.menu').fadeOut('slow');
+        $('.menu').fadeOut('fast');
     })
 });
 
