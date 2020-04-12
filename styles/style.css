@@ -733,6 +733,12 @@ button[type=submit]:focus-within {
         width: 100%;
     }
 
+    .bottom-header .body,
+    .behind .body {
+        width: 75vw;
+        margin: 0 auto;
+    }
+
     .lens {
         margin-top: 5%;
     }

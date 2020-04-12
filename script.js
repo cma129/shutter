@@ -1,6 +1,6 @@
 // sticky nav bar
 $(window).on("scroll", function() {
-    if($(window).scrollTop() > 500) {
+    if($(window).scrollTop() > 30) {
         $(".top-menu").addClass("active");
     } else {
         $(".top-menu").removeClass("active");
