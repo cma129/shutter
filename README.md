@@ -13,7 +13,7 @@ This single page website is for featuring Shutter, a photography company, using 
 - Vanilla JavaScript
 - jQuery
 - CSS3
-- Floats (Of course, I know Flexbox and Grid, too!)
+- Float (Of course, I know Flexbox and Grid, too!)
 - HTML5
 
 ## To-Do's
