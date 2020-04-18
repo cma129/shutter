@@ -576,7 +576,7 @@ button[type=submit]:focus-within {
 
     .title {
         position: absolute;
-        top: 60%;
+        bottom: 1%;
     }
 
     .gallery {
@@ -595,29 +595,16 @@ button[type=submit]:focus-within {
     
     .gallery img:hover,
     .gallery img:focus-within {
-        -webkit-transform: scale(1);
-                transform: scale(1);
+        -webkit-transform: none;
+                transform: none;
     }
 
     .bottom-header .body {
         width: 85%;
     }
 
-    .bottom-menu-container {
-        background: #252525;
-        height: auto;
-        margin: 0 auto;
-    }
-
     .bottom-menu {
         width: 80%;
-    }
-
-    .bottom-menu li {
-        float: none;
-        margin: 0 auto;
-        width: 35%;
-        padding: 30px 0;
     }
 
     .lens {
@@ -702,6 +689,21 @@ button[type=submit]:focus-within {
         bottom: 85px;
         right: 0;
         text-align: center;
+    }
+}
+
+@media (max-width: 530px) {
+    .bottom-menu-container {
+        background: #252525;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .bottom-menu li {
+        float: none;
+        margin: 0 auto;
+        width: 35%;
+        padding: 30px 0;
     }
 }
 
