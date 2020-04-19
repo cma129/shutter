@@ -98,6 +98,11 @@ html {
 .icons {
     float: right;
     margin: 11% 60px;
+    text-align: center;
+}
+
+.icons li {
+    text-align: center;
 }
 
 .icons a {
