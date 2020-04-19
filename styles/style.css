@@ -193,7 +193,7 @@ header .body {
     margin: 80px 2.5%;
 }
 
-.gallery img {
+.gallery a {
     width: 100%;
     height: auto;
     display: inline-block;
@@ -203,8 +203,8 @@ header .body {
     transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-.gallery img:hover,
-.gallery img:focus-within {
+.gallery a:hover,
+.gallery a:focus-within {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
 }
@@ -598,8 +598,8 @@ button[type=submit]:focus-within {
         margin: 0;
     }
     
-    .gallery img:hover,
-    .gallery img:focus-within {
+    .gallery a:hover,
+    .gallery a:focus-within {
         -webkit-transform: none;
                 transform: none;
     }
